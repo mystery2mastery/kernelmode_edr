@@ -12,4 +12,5 @@ A poc kernel mode EDR in Windows. It contains a kernel driver and a user mode cl
 - [ ] Detect direct syscalls
 - [ ] Detect indirect syscalls
 - [ ] Detect call stack spoofing
+- [ ] A logging utility (As of now logged events can be seen through DebugView tool)
 - [ ] a lot more ....
