@@ -7,7 +7,7 @@ A poc kernel mode EDR in Windows. It contains a kernel driver and a user mode cl
 - [x] Log Thread Creation
 - [x] Log Image Loads
 - [ ] Log Registry changes
-- [ ] Log File chnages
+- [ ] Log File changes
 - [ ] Log handle creation/duplication (useful for restricting access to critical processes such as lsass.exe)
 - [ ] Inject a dll containing usermode hooks into **EVERY** process from kernel space using Kernel APC. (To get info about invoked user mode API)
   - [ ] Make use of KnownDll mechanism to inject into **EVERY** process. In reality you don't need to inject into every process. This is just POC.
